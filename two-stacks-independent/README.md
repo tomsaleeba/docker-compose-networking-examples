@@ -8,6 +8,8 @@ Pros:
 
   - you can start/stop either stack in any order
   - no need to define a custom network for every container
+  - you can run both stacks on the same host or separate hosts without any code changes (although on separate hosts your
+      client container will need to have the `TARGET_HOST` changed to the publicly accessible one)
 
 Cons:
 

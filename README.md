@@ -5,5 +5,7 @@ codifying that learning.
 
 Check the README in each directory for what the example does and how to run it.
 
+The `two-stacks-independent` is the recommended approach.
+
 Note: we use the `init: true` [feature](https://docs.docker.com/compose/compose-file/#init) of Docker so you'll need a
 new enough docker and docker-compose to support the `3.7` version of the docker-compose file format.

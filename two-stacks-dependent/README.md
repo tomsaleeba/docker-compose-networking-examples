@@ -15,6 +15,8 @@ Pros:
 Cons:
 
   - you *must* start the server first and stop it last as it controls the network
+  - you *must* run both stacks on the same host. Or if you run the client stack on a separate host, you need to manually
+      create the docker network before starting.
 
 ## Running
 
