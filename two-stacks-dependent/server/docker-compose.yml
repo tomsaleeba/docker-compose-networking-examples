@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  stub_server:
+    image: tomsaleeba/dcne_server:dev
+    build: ../../containers/server
+    init: true

@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  client:
+    image: tomsaleeba/dcne_client:dev
+    build: ../../containers/client
+    init: true
+networks:
+  default:
+    name: the_network

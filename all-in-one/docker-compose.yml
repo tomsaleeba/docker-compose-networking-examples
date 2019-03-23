@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  stub_server:
+    image: tomsaleeba/dcne_server:dev
+    build: ../containers/server
+    init: true
+  client:
+    image: tomsaleeba/dcne_client:dev
+    build: ../containers/client
+    init: true
